@@ -120,9 +120,11 @@ body{
     border-radius: 15px;
 }
 
+
 .hero-img img{
     width: 312px;
     height: 410px;
+    margin: 2px auto;
 }
 
 
@@ -243,10 +245,7 @@ background-color: #EFAB68;
 
 .news-img{
     padding-top: 70px;
-    /* position: relative;
-    top: 74px; */
-    /* left: 27px; */
-    /* right: 41px; */
+    margin: 2px auto;
     width: 306px;
 }
 
@@ -303,6 +302,7 @@ background-color: #EFAB68;
     grid-template-columns: 1;
     gap: 40px;
     padding-left: 16px;
+    justify-content: center;
 }
 
 
@@ -310,6 +310,7 @@ background-color: #EFAB68;
     margin-top: 40px;
     font-weight: 500;
     font-size: 18px;
+    width: 300px;
     color: rgba(182, 182, 182, 1);
 }
 
@@ -480,13 +481,13 @@ background-color: #EFAB68;
 
     .news{
         display: flex;
-        overflow: hidden;
         align-items: center;
         justify-content: space-around;
     }
 
     .news-img{
-        width: 590px;
+        margin: 0px;
+        width: 500px;
         /* margin: 50px;
         height: ; */
     }
